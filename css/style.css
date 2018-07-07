@@ -264,6 +264,83 @@ a {
   background-color: #ff5357;
 }
 
-.whith-bg {
-  background-color: #ffffff;
+.info-company h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.info-company p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.delivery-company {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.info-company a {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.contacts h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.contacts p {
+font-size: 13px;
+line-height: 24px;
+}
+
+.contacts a {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.footer-bg_top {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+  background-color: #32425c;
+}
+
+.footer-navigaton-top {
+  list-style: none;
+}
+
+.footer__logo h5 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.footer-navigaton-top {
+  list-style: none;
+}
+
+.footer-navigaton-bottom {
+  list-style: none;
+}
+
+.footer-navigaton-bottom a {
+  color: #ffda96;
+}
+
+.footer-bg_bottom {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  background-color: #293449;
 }
