@@ -1,3 +1,269 @@
-.modal-feedback {
-  background-image: linear-gradient(#ff5358 15px,  #fff 15px, #fff 400px, #f4f4f4 400px);
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f3f7f8;
+}
+
+.header-top {
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #293449;
+}
+
+.header__logo h1 {
+  font-size: 24px;
+  background-color: #ee3643;
+}
+
+.btn--green {
+  background-color: #63a63e;
+}
+
+.header-mid__desc {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.header-mid-info a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.header-mid-info p {
+  font-size: 14px;
+  color: #32425c;
+
+}
+
+.link {
+  list-style: none;
+}
+
+.link-btn a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation__ul {
+  list-style: none;
+  background-color: #32425c;
+}
+
+.navigation__ul a {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.main {
+  background-color: #ffffff;
+}
+.main-material {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ffbf47;
+}
+
+.main-material a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #e5ac40;
+}
+
+.main-tools {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #3bbce3;
+}
+
+.main-tools a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #35a9cc;
+}
+
+.main-tech {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #dc91d8;
+}
+
+.main-tech a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #c682c2;
+}
+
+.main-sale {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #8ed78f;
+}
+
+.main-sale a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #80c180;
+}
+
+.main-delivery {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ffc047;
+}
+
+.main-delivery a {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: #e5ac40;
+}
+
+.popular-products {
+  background-color: #f9f5f0;
+}
+
+.popular-products h2 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.popular-products a {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.catalog_list {
+  list-style: none;
+}
+
+.catalog_list h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.catalog-item {
+  text-align: center;
+}
+
+.catalog-item__before-price {
+  font-size: 17px;
+  line-height: 18px;
+  text-decoration: line-through;
+  color: #a9a9a9;
+}
+
+.catalog-item a {
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  background-image: url(../img/red-button.svg);
+}
+
+.popular-brands {
+  background-color: #f9f5f0;
+}
+
+.popular-brands h2 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.popular-brands a {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.brand-list {
+  list-style: none;
+}
+.brand-item {
+  text-align: center;
+}
+
+.slider__bottom {
+  background-color: #f4f8f9;
+}
+
+.service h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.service p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.slider-bottom h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+}
+
+.slider-bottom p {
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.credit-btn {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ff5357;
+}
+
+.whith-bg {
+  background-color: #ffffff;
 }
