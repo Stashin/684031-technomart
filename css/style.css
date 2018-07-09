@@ -18,7 +18,7 @@ a {
 .header {
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
-  background-color: #f3f7f8;
+  background-color: #f4f7f9;
 }
 
 .header-top {
@@ -189,6 +189,7 @@ a {
 
 .catalog-item {
   text-align: center;
+  border: 1px solid #eaeaea;
 }
 
 .catalog-item__before-price {
@@ -228,6 +229,8 @@ a {
 }
 .brand-item {
   text-align: center;
+  vertical-align: middle;
+  border: 1px solid #eaeaea;
 }
 
 .slider__bottom {
@@ -255,6 +258,21 @@ a {
 .slider-bottom p {
   font-size: 13px;
   line-height: 24px;
+}
+
+.delivery-info {
+  background-image: url(../img/delivery_auto.png);
+  background-repeat: no-repeat;
+}
+
+.guarantee-info{
+  background-image: url(../img/guarantee.png);
+  background-repeat: no-repeat;
+}
+
+.credit-info {
+  background-image: url(../img/credit.png);
+  background-repeat: no-repeat;
 }
 
 .credit-btn {
@@ -339,8 +357,92 @@ line-height: 24px;
 
 .footer-bg_bottom {
   font-family: 'Cuprum', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 18px;
   color: #ffffff;
   background-color: #293449;
+}
+
+.text-yellow {
+  color: #ffd180;
+}
+
+.modal-bg-top {
+  background-color: #ffffff;
+  background-image: url(../img/form-1.svg);
+  background-repeat: no-repeat;
+}
+
+.modal-bg-bottom {
+  background-color: #f1f1f1;
+}
+
+.modal-order {
+  color: #ffffff;
+  background-color: #ee3643;
+}
+
+.modal-shopping {
+  color: #000000;
+  background: #ffffff;
+}
+
+.page-title {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  background-color: #f2f6f8;
+}
+
+.filters h4 {
+  font-size: 13px;
+  line-height: 18px;
+  background-color: #f7f3ec;
+}
+
+.filter legend {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.filter-option {
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.form button{
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.feedback-bg-top {
+  background-color: #ffffff;
+}
+
+.feedback-bg-buttom {
+  background-color: #f4f4f4;
+}
+
+.form-item__fb {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
 }
