@@ -12,7 +12,9 @@
 
 <body>
   <header class="header">
-      <h1><a href="#" class="header__logo btn">Техномарт</a></h1>
+    <h1>
+      <a href="#" class="header__logo btn">Техномарт</a>
+    </h1>
     <form class="form form-search" action="#" method="post">
       <input type="text" class="form__input form-search__input" name="search" placeholder="Поиск">
     </form>
@@ -297,7 +299,9 @@
 
   <footer class="footer">
     <div class="footer-bg_top">
-        <h5><a href="#" class="footer__logo">Техномарт</a></h5>
+      <h5>
+        <a href="#" class="footer__logo">Техномарт</a>
+      </h5>
       <nav class="footer-navigaton">
         <ul class="footer-navigaton-top">
           <li>
@@ -378,9 +382,9 @@
 
   <section class="modal modal-feedback">
     <h2 class="visually-hidden">Панель обратной связи</h2>
-    <div class="feedback-bg-top">
-      <button class="modal-close" type="button">Закрыть</button>
-      <form class="feedback-form" action="#" method="post">
+    <form class="feedback-form" action="#" method="post">
+      <div class="feedback-bg-top">
+        <button class="modal-close" type="button">Закрыть</button>
         <div class="modal-name">
           <label class="form-item__fb" for="name">Ваше имя:</label>
           <input id="name" class="form__input form-name__input" type="text" placeholder="Имя Фамилия">
@@ -393,10 +397,10 @@
           <label class="form-item__fb" for="mail-text">Текст письма</label>
           <textarea id="mail-text" rows="5" placeholder="В свободной форме"></textarea>
         </div>
-    </div>
-    <div class="feedback-bg-buttom">
-      <button class="button" type="submit">Отправить</button>
-    </div>
+      </div>
+      <div class="feedback-bg-buttom">
+        <button class="button" type="submit">Отправить</button>
+      </div>
     </form>
   </section>
   <div class="map-popup">

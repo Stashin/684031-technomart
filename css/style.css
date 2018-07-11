@@ -324,6 +324,10 @@ background-color: #1d2739;
   box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+.brand-item:active img {
+  opacity: 0.3;
+}
+
 .slider__bottom {
   background-color: #f4f8f9;
 }
@@ -537,4 +541,57 @@ line-height: 24px;
 .btn {
   text-align: center;
   vertical-align: middle;
+}
+
+.sort {
+  background-color: #f7f3ec;
+}
+
+.sort-list {
+  list-style: none;
+}
+
+.sort-list a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.3;
+}
+
+.sort-list a:hover,
+.sort-list a:focus {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.sort-list a:active {
+  text-decoration: none;
+  color: #ee3643;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-list a {
+  color: #000000;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  line-height: 18px;
+}
+
+.pagination-list a:hover,
+.pagination-list a:focus {
+  border-color: #bdc6ca;
+}
+
+
+.devices-info {
+  background-color: #f2f6f8;
+}
+
+.devices-info h3 {
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
 }
