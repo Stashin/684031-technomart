@@ -432,11 +432,20 @@ line-height: 24px;
   list-style: none;
 }
 
-.footer__logo h1 {
+.footer__logo {
   font-size: 30px;
   line-height: 30px;
   color: #ffffff;
   background-color: #ee3643;
+}
+
+h5 .footer__logo:hover,
+h5 .footer__logo:focus {
+  background-color: #ca2c37;
+}
+
+h5 .footer__logo:active {
+  background-color: #ba2732;
 }
 
 .footer-navigaton-top {
@@ -594,4 +603,28 @@ line-height: 24px;
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
+}
+
+.footer-navigaton-top a:hover,
+.footer-navigaton-top a:focus,
+.footer-navigaton-bottom a:hover,
+.footer-navigaton-bottom a:focus {
+  text-decoration: underline;
+}
+
+.footer-navigaton-top a:active,
+.footer-navigaton-bottom a:active {
+  opacity: 0.5;
+}
+
+.feedback a:hover,
+.feedback a:focus,
+.develop a:hover,
+.develop a:focus {
+  text-decoration: underline;
+}
+
+.feedback a:active,
+.develop a:active {
+  color: #ee3643;
 }
