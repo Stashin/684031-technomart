@@ -56,7 +56,13 @@
           <li class="profile-link__items">
             <a class="profile-exit profile-link__item" href="#">
               <span class="visually-hidden">Выход из профиля</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17"><g fill="#c5c5c5"><path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z"/><path fill="#c5c5c5" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"/ fill="#32425c"></g></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 21 17">
+                <g fill="#c5c5c5">
+                  <path fill="#c5c5c5" d="M21 8.5L12.125 0v6h-6v5h6v6z" />
+                  <path fill="#c5c5c5" d="M3.106 13.952V3.048c.018-.376.171-1.057 1.01-1.057h5.027V0H4.116C1.938 0 1.112 1.81 1.087 3.027v10.946C1.112 15.189 1.938 17 4.116 17h5.027v-1.99H4.116c-.839 0-.992-.683-1.01-1.058z"
+                  / fill="#32425c">
+                </g>
+              </svg>
 
             </a>
           </li>
@@ -471,13 +477,15 @@
     <form class="feedback-form" action="#" method="post">
       <div class="feedback-bg-top">
         <button class="modal-close" type="button">Закрыть</button>
-        <div class="modal-name">
-          <label class="form-item__fb" for="name">Ваше имя:</label>
-          <input id="name" class="form__input form-name__input" type="text" placeholder="Имя Фамилия">
-        </div>
-        <div class="modal-mail">
-          <label class="form-item__fb" for="mail">Ваш e-mail:</label>
-          <input id="mail" class="form__input form-mail__input" type="text" placeholder="email@example.com">
+        <div class="modal-contacts-info">
+          <div class="modal-name">
+            <label class="form-item__fb" for="name">Ваше имя:</label>
+            <input id="name" class="form__input form-name__input" type="text" placeholder="Имя Фамилия">
+          </div>
+          <div class="modal-mail">
+            <label class="form-item__fb" for="mail">Ваш e-mail:</label>
+            <input id="mail" class="form__input form-mail__input" type="text" placeholder="email@example.com">
+          </div>
         </div>
         <div>
           <label class="form-item__fb" for="mail-text">Текст письма</label>
@@ -485,15 +493,15 @@
         </div>
       </div>
       <div class="feedback-bg-buttom">
-        <button class="button" type="submit">Отправить</button>
+        <button class="modal-button" type="submit">Отправить</button>
       </div>
     </form>
   </section>
-  <div class="map-popup">
-    <p class="slide-item__img">
-      <img src="img/map_popup.png" alt="Карта">
-    </p>
-  </div>
+  <section class="modal modal-map">
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <p><img src="../img/map_popup.png" width="940" height="446" alt="Карта"></p>
+    <button class="modal-close" type="button">Закрыть</button>
+  </section>
 </body>
 
 </html>
