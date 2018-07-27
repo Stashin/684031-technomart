@@ -1690,6 +1690,10 @@ h5 .footer__logo:active {
 .feedback-bg-top {
   background-color: #ffffff;
   margin-bottom: 37px;
+  padding-top: 55px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: inset 0 5px 0 0 #ff5357;
 }
 
 .feedback-bg-buttom {
@@ -1855,15 +1859,10 @@ h5 .footer__logo:active {
 }
 
 .modal-feedback {
-  top: 50%;
+  top: 25%;
   left: 50%;
-  width: 460px;
+  width: 620px;
   margin-left: -310px;
-  padding-top: 55px;
-  padding-left: 80px;
-  padding-right: 80px;
-  box-shadow: inset 0 5px 0 0 #ff5357;
-  display: none;
 }
 
 .modal-close {
@@ -1931,7 +1930,7 @@ h5 .footer__logo:active {
   text-transform: uppercase;
   background-color: #ee3643;
   border: none;
-  margin: 37px 0;
+  margin: 37px 80px;
 }
 
 .modal-map {
