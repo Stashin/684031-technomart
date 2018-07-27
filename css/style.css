@@ -203,7 +203,7 @@ h1 .header__logo:active {
 }
 
 .form-search:active::before {
-fill: #ef3b48;
+  fill: #ef3b48;
 }
 
 .btn--green {
@@ -336,6 +336,10 @@ fill: #ef3b48;
   font-size: 21px;
 }
 
+.profile-exit {
+  fill: #32425c;
+}
+
 .profile-link {
   list-style: none;
   margin: 0;
@@ -357,6 +361,10 @@ fill: #ef3b48;
   position: relative;
 }
 
+.profile-name:active {
+  color: #cacaca;
+}
+
 .profile-name::after {
   content: "";
   position: absolute;
@@ -365,6 +373,15 @@ fill: #ef3b48;
   height: 18px;
   top: 13px;
   left: 13px;
+}
+
+.profile-name:hover::after,
+.profile-name:focus::after {
+  background-image: url(../img/icon-user-active.svg);
+}
+
+.profile-name:active::after {
+  background-image: url(../img/icon-user.svg);
 }
 
 .profile-exit {
@@ -377,6 +394,15 @@ fill: #ef3b48;
   padding: 10px 0px 11px 0px;
 }
 
+.profile-exit:hover path,
+.profile-exit:focus path {
+  fill: #32425c;
+}
+
+.profile-exit:active path {
+  fill: #c5c5c5;
+}
+
 .profile-list {
   display: flex;
   list-style: none;
@@ -384,6 +410,8 @@ fill: #ef3b48;
   padding: 0;
   margin-top: 16px;
   margin-left: 17px;
+  position: relative;
+  text-decoration: underline;
 }
 
 .profile-item {
@@ -391,6 +419,26 @@ fill: #ef3b48;
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
+}
+
+.profile-item:hover,
+.profile-item:focus {
+color: #ee3643;
+}
+
+.profile-item:active {
+  color: #c5cad0;
+}
+
+.personal-account::before {
+  content: "";
+  position: absolute;
+  left: 89px;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background-color: #32425c;
+  border-radius: 50%;
 }
 
 .profile-items {
