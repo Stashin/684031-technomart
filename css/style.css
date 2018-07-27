@@ -239,6 +239,7 @@ h1 .header__logo:active {
   padding-left: 52px;
   margin-right: auto;
   padding-top: 3px;
+  padding-right: 22px;
 }
 
 .header-mid-info {
@@ -274,7 +275,6 @@ h1 .header__logo:active {
   justify-content: space-between;
   width: 281px;
   margin-left: auto;
-  display: none;
 }
 
 .link-btn a {
@@ -514,6 +514,7 @@ color: #ee3643;
   height: 123px;
   margin: 0px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .main-menu a {
@@ -787,6 +788,21 @@ color: #ee3643;
   background: url("../img/new flag.png") no-repeat 0 0;
 }
 
+.main-menu .flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  text-indent: -1000px;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.main-menu .flag-new {
+  background: url("../img/new flag.png") no-repeat 0 0;
+}
+
 .catalog-item .actions {
   position: absolute;
   top: 0;
@@ -811,7 +827,7 @@ color: #ee3643;
   color: white;
   font-size: 14px;
   font-weight: normal;
-  font-family: "Cuprum", sans-serif;
+  font-family: 'Cuprum', Arial, sans-serif;
   line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
@@ -999,6 +1015,10 @@ color: #ee3643;
 
 .brand-item a {
   display: flex;
+    min-height: 145px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
 }
 
 .brand-item:hover,
@@ -1012,6 +1032,10 @@ color: #ee3643;
 
 .brand-item:active img {
   opacity: 0.3;
+}
+
+.metabo-brand {
+  padding-bottom: 8px;
 }
 
 .receipt-of-goods {
@@ -1476,6 +1500,7 @@ h5 .footer__logo:active {
 
 .filters {
   padding-right: 20px;
+  width: 220px;
 }
 
 .filters h4 {
@@ -1712,6 +1737,10 @@ h5 .footer__logo:active {
   vertical-align: middle;
 }
 
+.catalog-conteiner {
+  width: 700px;
+}
+
 .sort {
   background-color: #f7f3ec;
   padding-top: 7px;
@@ -1863,6 +1892,7 @@ h5 .footer__logo:active {
   left: 50%;
   width: 620px;
   margin-left: -310px;
+  display: none;
 }
 
 .modal-close {
@@ -1943,6 +1973,11 @@ h5 .footer__logo:active {
   display: none;
 }
 
+.modal-map p {
+  padding: 0;
+  margin: 0;
+}
+
 .modal-add {
   top: 50%;
   left: 50%;
@@ -1999,6 +2034,26 @@ h5 .footer__logo:active {
 
 .slider-top {
   position: relative;
+}
+
+.slides-switches::before {
+  content: "";
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  top: 114px;
+  left: 25px;
+  background-image: url(../img/icon-left.svg)
+}
+
+.slides-switches::after {
+  content: "";
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  top: 114px;
+  left: 578px;
+  background-image: url(../img/icon-right.svg)
 }
 
 .slider-control {
@@ -2061,3 +2116,4 @@ h5 .footer__logo:active {
 .slide-radio:nth-child(2) {
   display: block;
 }
+
