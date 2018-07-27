@@ -1863,6 +1863,7 @@ h5 .footer__logo:active {
   left: 50%;
   width: 620px;
   margin-left: -310px;
+  display: none;
 }
 
 .modal-close {
