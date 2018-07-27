@@ -43,6 +43,7 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 46px;
+  position: relative;
 }
 
 .header-top-menu {
@@ -64,6 +65,21 @@ a {
 .header-top-menu__link:active {
   color: rgba(255, 255, 255, 0.6);
   background-color: #161d29;
+}
+
+.header-top__link--mark__not__active::after,
+.header-top__link--trash__not__active::after {
+  content: ": 0";
+  position: absolute;
+  top: 12px;
+  right: 29px;
+}
+
+.header-top__link--trash__active::after {
+  content: ": 10";
+  position: absolute;
+  top: 12px;
+  right: 27px;
 }
 
 .header-top__link--mark {
@@ -145,11 +161,49 @@ h1 .header__logo:active {
 
 .form-search {
   background-color: #293449;
+}
+
+.form-search input[type="text"] {
+  box-sizing: border-box;
+  width: 270px;
+  border: 2px solid #293449;
+  padding-left: 46px;
   padding-top: 9px;
+  padding-bottom: 10px;
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.form-search input[type="text"]:focus {
+  box-sizing: border-box;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
 }
 
 .form-search::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
   background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  top: 12px;
+  left: 238px;
+  opacity: 0.3;
+}
+
+.form-search:hover::before,
+.form-search:focus::before {
+  opacity: 1;
+}
+
+.form-search:active::before {
+fill: #ef3b48;
 }
 
 .btn--green {
@@ -164,6 +218,10 @@ h1 .header__logo:active {
 .btn--green:active {
   color: rgba(255, 255, 255, 0.5);
   background-color: #518534;
+}
+
+.header-top__link--trash__active {
+  background-color: #ee3643;
 }
 
 .header-mid {
@@ -1566,6 +1624,19 @@ h5 .footer__logo:active {
 
 .filter-list {
   list-style: none;
+}
+
+.filter-btn {
+  display: inline-block;
+  padding: 6px 38px;
+  font: inherit;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  margin-top: 57px;
+  border-radius: 3px;
 }
 
 .feedback-bg-top {
