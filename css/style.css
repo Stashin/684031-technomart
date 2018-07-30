@@ -44,6 +44,7 @@ a {
   justify-content: space-between;
   margin-bottom: 46px;
   position: relative;
+  height: 42px;
 }
 
 .header-top-menu {
@@ -172,6 +173,7 @@ h1 .header__logo:active {
   padding-bottom: 10px;
   background-color: #293449;
   color: #ffffff;
+  height: 42px;
 }
 
 .form-search input[type="text"]:focus {
@@ -239,7 +241,11 @@ h1 .header__logo:active {
   padding-left: 52px;
   margin-right: auto;
   padding-top: 3px;
-  padding-right: 22px;
+  width: 202px;
+}
+
+.activ_profile {
+  padding-right: 15px;
 }
 
 .header-mid-info {
@@ -1014,7 +1020,7 @@ h1 .header__logo:active {
 
 .brand-item a {
   display: flex;
-  min-height: 145px;
+  height: 145px;
   align-items: center;
   flex-grow: 1;
   justify-content: center;
@@ -1203,6 +1209,7 @@ h1 .header__logo:active {
   padding-top: 26px;
   letter-spacing: 0.1px;
   padding-bottom: 12px;
+  width: 525px;
 }
 
 .info-company__bottom {
@@ -1212,6 +1219,7 @@ h1 .header__logo:active {
   padding-top: 12px;
   letter-spacing: 0.1px;
   padding-bottom: 21px;
+  width: 390px;
 }
 
 .delivery-company {
@@ -1271,6 +1279,7 @@ h1 .header__logo:active {
   line-height: 24px;
   margin: 0;
   padding-bottom: 31px;
+  width: 180px;
 }
 
 .contacts a {
@@ -1281,11 +1290,6 @@ h1 .header__logo:active {
   padding: 11px 59px 9px 64px;
   margin-top: 40px;
   border-radius: 3px;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-top {
@@ -1349,7 +1353,7 @@ h5 .footer__logo:active {
   display: flex;
   justify-content: space-between;
   margin-top: 33px;
-  margin-bottom: 49px;
+  padding-bottom: 49px;
 }
 
 .footer-contacts {
@@ -1358,6 +1362,7 @@ h5 .footer__logo:active {
 
 .footer-contacts__item {
   margin: 0px;
+  width: 330px;
 }
 
 .footer-navigaton-bottom {
@@ -1384,7 +1389,7 @@ h5 .footer__logo:active {
   display: flex;
   align-items: flex-start;
   padding-top: 35px;
-  margin-bottom: 28px;
+  padding-bottom: 28px;
 }
 
 .footer-social ul {
@@ -1423,6 +1428,8 @@ h5 .footer__logo:active {
 
 .copyright__item {
   margin: 0;
+  width: 325px;
+  width: 230px;
 }
 
 .feedback {
@@ -1634,10 +1641,10 @@ h5 .footer__logo:active {
 }
 
 .max-price::before {
-  content: "-";
+  content: "—";
   position: absolute;
   top: 6px;
-  right: 107px;
+  right: 104px;
 }
 
 .price-range {
