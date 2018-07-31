@@ -1338,6 +1338,7 @@ h1 .header__logo:active {
   padding: 18px 41px 15px 42px;
   text-transform: uppercase;
   font-weight: 400;
+  box-shadow: 0 5px 0 0 #b52933;
 }
 
 h5 .footer__logo:hover,
