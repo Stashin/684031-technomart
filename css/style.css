@@ -1292,6 +1292,10 @@ h1 .header__logo:active {
   border-radius: 3px;
 }
 
+.footer {
+  min-width: 920px;
+}
+
 .footer-top {
   display: flex;
   justify-content: space-between;
